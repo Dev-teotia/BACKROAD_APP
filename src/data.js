@@ -1,9 +1,9 @@
-import img0 from './assets/images/tour-1.jpeg'
-import img1 from './assets/images/tour-2.jpeg'
-import img2 from './assets/images/tour-3.jpeg'
-import img3 from './assets/images/tour-4.jpeg'
-import img4 from './assets/images/tour-5.jpeg'
-import img5 from './assets/images/tour-6.jpeg'
+import tour1 from './assets/images/tour-1.jpeg'
+import tour2 from './assets/images/tour-2.jpeg'
+import tour3 from './assets/images/tour-3.jpeg'
+import tour4 from './assets/images/tour-4.jpeg'
+import tour5 from './assets/images/tour-5.jpeg'
+import tour6 from './assets/images/tour-6.jpeg'
 
 export const MenuItems = [
   {
@@ -43,7 +43,7 @@ export const socialMediaIcons = [
   },
 ];
 
-export const servicedata = [
+export const servicesData = [
   {
     icon: "fas fa-wallet fa-fw",
     title: "Saving Money",
@@ -61,59 +61,59 @@ export const servicedata = [
   },
 ];
 
-export const toursdata = [
+export const toursData = [
   {
-    pic: img0,
+    pic: tour1,
     date: "august 26th, 2020",
     title: "Tibet Adventure",
     info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
     country: "china",
-    days: "6 Days",
-    amount: "From $2100",
+    days: 6,
+    amount: 2100,
   },
   {
-    pic: img1,
+    pic: tour2,
     date: "october 1th, 2020",
-    title: "Best of Java",
+    title: "best of java",
     info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
-    country: "Indonesia",
-    days: "11 Days",
-    amount: "From $1400",
+    country: "indonesia",
+    days: 11,
+    amount: 1400,
   },
   {
-    pic: img2,
-    date: "September 15th, 2020",
-    title: "Explore Hong Kong",
+    pic: tour3,
+    date: "september 15th, 2020",
+    title: "explore hong kong",
     info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
-    country: "Hong Kong",
-    days: "8 Days",
-    amount: "From $5000",
+    country: "hong kong",
+    days: 8,
+    amount: 5000,
   },
   {
-    pic: img3,
-    date: "December 5th, 2019",
-    title: "Kenya Highlights",
+    pic: tour4,
+    date: "december 5th, 2019",
+    title: "kenya highlights",
     info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
-    country: "Kenya",
-    days: "20 Days",
-    amount: "From $3300",
+    country: "kenya",
+    days: 20,
+    amount: 3300,
   },
   {
-    pic: img4,
-    date: "February 5th, 2020",
-    title: "Euthiopia Highlights",
+    pic: tour5,
+    date: "december 5th, 2024",
+    title: "india heritage",
     info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
-    country: "Euthiopia",
-    days: "15 Days",
-    amount: "From $3100",
+    country: "india",
+    days: 15,
+    amount: 25000,
   },
   {
-    pic: img5,
-    date: "November 15th, 2020",
-    title: "India Highlights",
+    pic: tour6,
+    date: "august 5th, 2019",
+    title: "India Tour",
     info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
-    country: "India",
-    days: "24 Days",
-    amount: "From $2800",
+    country: "india",
+    days: 10,
+    amount: 5500,
   },
 ];
